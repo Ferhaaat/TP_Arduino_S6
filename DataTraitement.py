@@ -5,6 +5,14 @@ import plotly.graph_objects as go
 
 
 st.image('enspima.svg')
+st.balloons()
+st.markdown("# Magnetometer data visualisation App, made by Ferhat and Valentin")
+
+st.write("We are so glad to see you here. ✨ " 
+         "You can visualise our data here")
+
+st.markdown('**the navigation is better in paysage mode or on a computer**')
+
 
 # Charger les données
 data = np.loadtxt("data.txt")
