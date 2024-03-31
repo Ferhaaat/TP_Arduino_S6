@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 
 
 
-st.image('enspima.png')
+st.image('enspima.svg')
 
 # Charger les données
 data = np.loadtxt("data.txt")
